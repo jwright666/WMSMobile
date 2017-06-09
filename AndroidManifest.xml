@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sg.com.innosys.wms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+	<uses-permission android:name="android.permission.INTERNET"/> 
+    <uses-sdk 
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:icon="@drawable/logooo"
+        android:label="@string/app_name"
+        android:name="sg.com.innosys.wms.BLL.Common.WhApp">
+        <activity android:name=".UI.Common.ActWmsMain"
+				  android:screenOrientation="portrait">
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />                
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UI.GRN.ActGrnDownload"            		
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>
+        <activity android:name=".UI.GIN.ActGinDownload"            		
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>
+        <activity android:name=".UI.GRN.ActGRNMain"          		
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>
+        <activity android:name=".UI.GIN.ActGINMain"
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>
+        <activity android:name=".UI.GRN.ActGrnPut"           		
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>   
+        <activity android:name=".UI.GIN.ActGinPick"            		
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>
+        <activity android:name=".UI.GRN.ActUnbalanceGrnDetail"            		
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>    
+        <activity android:name=".UI.Crating.ActCrateMain"            		
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>  
+        <activity android:name=".UI.Crating.ActCrateProduct"            		
+				  android:configChanges="keyboardHidden|orientation"
+				  android:screenOrientation="portrait"/>               
+    </application>
+    
+</manifest>

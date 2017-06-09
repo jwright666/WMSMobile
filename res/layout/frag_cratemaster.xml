@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/btnSaveCrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_alignRight="@+id/tvvCrate_No"  
+        android:text="@string/btnSave"
+        android:textSize="@dimen/buttonTextSize_normal" />
+
+    <Button
+        android:id="@+id/btnDeleteCrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_alignBaseline="@+id/btnSaveCrate"
+        android:layout_toRightOf="@+id/btnSaveCrate"
+        android:text="@string/btnDelete" 
+        android:textSize="@dimen/buttonTextSize_normal"/>
+    
+    
+    <TextView
+        android:id="@+id/tvvCrate_No"
+        android:layout_width="@dimen/createMasterTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_below="@+id/btnSaveCrate"
+        android:gravity="center_vertical|right"
+        android:text="@string/tvwCrateNo"
+        android:textSize="@dimen/textSize_normal" />
+    <EditText
+        android:id="@+id/etwCrate_No"
+        android:layout_width="@dimen/etwCrateDetailFields_width"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/tvvCrate_No"
+        android:layout_alignBaseline="@+id/tvvCrate_No"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:background="#87cefa"
+        android:hint=""
+        android:inputType="textCapCharacters"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize_normal" />
+
+    <TextView
+        android:id="@+id/tvvCrate_Desc"
+        android:layout_width="@dimen/createMasterTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvCrate_No"  
+        android:layout_alignRight="@+id/tvvCrate_No"      
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="center_vertical|right"
+        android:text="@string/tvwDesc"
+        android:textSize="@dimen/textSize_normal" />
+    <EditText
+        android:id="@+id/etwCrate_Desc"
+        android:layout_width="@dimen/etwCrateDetailFields_width"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/tvvCrate_Desc"
+        android:layout_alignBaseline="@+id/tvvCrate_Desc"
+        android:background="#ffffff"
+        android:hint=""
+        android:inputType="textCapCharacters"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/tvvCrate_Marking"
+        android:layout_width="@dimen/createMasterTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvCrate_Desc"
+        android:layout_alignRight="@+id/tvvCrate_No" 
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="center_vertical|right"
+        android:text="@string/tvwCrateMarking"
+        android:textSize="@dimen/textSize_normal" />
+
+    <EditText
+        android:id="@+id/etwCrate_Marking"
+        android:layout_width="@dimen/etwCrateDetailFields_width"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/tvvCrate_Marking"
+        android:layout_alignBaseline="@+id/tvvCrate_Marking"
+        android:background="#ffffff"
+        android:hint=""
+        android:inputType="textCapCharacters"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize_normal" />
+
+</RelativeLayout>

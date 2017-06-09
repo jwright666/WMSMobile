@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="logInfoTextSize_normal">10dp</dimen>
+    <dimen name="textSize_normal">15dp</dimen>
+    <dimen name="buttonTextSize_normal">12dp</dimen>
+    <dimen name="editTextSize_normal">14dp</dimen>
+    
+    <dimen name="layout_marginTop">3dp</dimen>
+    <dimen name="layout_marginLeft">3dp</dimen>   
+    <dimen name="layout_marginRight">3dp</dimen>
+    <dimen name="layout_marginBottom">3dp</dimen>  
+     
+    <dimen name="headerTextSize_normal">16dp</dimen>
+    <dimen name="listViewRowTextSize_normal">16dp</dimen> 
+         
+    <dimen name="listViewHeader_height">25dp</dimen>         
+    
+    <dimen name="listViewRowpaddingTop">10dp</dimen>
+    <dimen name="listViewRowpaddingBottom">10dp</dimen>
+    <dimen name="layoutPaddingRight">2dp</dimen>
+    <dimen name="layoutaddingLeft">2dp</dimen>
+    
+      
+    <dimen name="listTrxNo_width">90dp</dimen>
+    <dimen name="listCustCode_width">150dp</dimen>          
+    <dimen name="listReferenceNo_width">130dp</dimen>  
+    <dimen name="listCustName_width">250dp</dimen>
+    <dimen name="listDate_width">100dp</dimen>        
+    <dimen name="listLineNo_width">70dp</dimen>
+    <dimen name="listSeqNo_width">50dp</dimen>        
+    <dimen name="listProdCode_width">150dp</dimen>
+    <dimen name="listProdDesc_width">360dp</dimen>
+    <dimen name="listBatchNo_width">120dp</dimen>   
+    <dimen name="listLotNo_width">120dp</dimen>
+    <dimen name="listUOM_width">80dp</dimen>        
+    <dimen name="listWarehouseCode_width">100dp</dimen>
+    <dimen name="listQty_width">70dp</dimen>   
+    <dimen name="listPalletID_width">120dp</dimen>   
+    <dimen name="listZone_width">80dp</dimen>   <!-- 20140421 gerry changed value from 120dp to 80dp -->
+    <dimen name="listRow_width">40dp</dimen>   <!-- 20140421 gerry changed value from  90dp to 40dp -->
+    <dimen name="listColumn_width">40dp</dimen>   <!-- 20140421 gerry changed value from  90dp to 40dp -->
+    <dimen name="listTier_width">40dp</dimen>  <!-- 20140421 gerry changed value from  90dp to 40dp -->
+    <dimen name="listIsEqual_width">130dp</dimen>   
+    <dimen name="listSerialNo_width">180dp</dimen>  
+    <dimen name="listSerialDesc_width">250dp</dimen>  
+    <dimen name="listScannedSerialNos_width">130dp</dimen>  
+    <dimen name="listHasSerialNo_width">150dp</dimen>      
+    <dimen name="listCrateNo_width">120dp</dimen>  
+    <dimen name="listCrateDesc_width">180dp</dimen>  
+    <dimen name="listCrateMarking_width">180dp</dimen>  
+    
+    
+    <dimen name="listCrateProdList_height">80dp</dimen>  <!-- 20140404 gerry added -->
+    
+    
+    <dimen name="createTvw_width">90dp</dimen>   
+    <dimen name="createMasterTvw_width">120dp</dimen>   
+    <dimen name="etwCrateDetailFields_width">130dp</dimen> 
+    <dimen name="etwScanSerialNo_width">315dp</dimen>  
+    <dimen name="etwGinPickingEntry_width">95dp</dimen>
+    
+    <dimen name="tvwGinPickingEntryLabel_width">80dp</dimen>
+    
+    
+    
+    <dimen name="loginTvw_width">120dp</dimen>  
+    <dimen name="loginEvw_width">150dp</dimen> 
+    <dimen name="downloadTvw_width">90dp</dimen>  
+    <dimen name="downloadEvw_width">180dp</dimen>   
+    <dimen name="ginProductTvw_width">100dp</dimen>  
+    <dimen name="ginProductEvw_width">100dp</dimen>   
+    
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name ="listView_headerBgColor"> #f5f5f5 </color>
+    <color name ="listView_headerTextColor"> #000000 </color>
+    
+    <color name ="listView_rowBgColor"> #000000 </color>
+    <color name ="listView_rowTextColor"> #ffffff </color>
+    <color name ="listView_selectedRowBgColor">#00bfff</color>
+    
+    <color name ="checkboxBgColor"> #f5f5f5 </color>
+    <color name ="checkboxCheckColor"> #0000ff </color>
+    
+    
+    <color name = "form_bgColor">#000000</color>
+    <color name = "readOnlyTextedit_bgColor">#66cdaa</color>
+    <color name = "compulsoryTextedit_bgColor">#87cefa</color>
+    <color name = "disabledTextedit_bgColor">#ACA4A4</color>
+    <color name = "OptionalTextedit_bgColor">#FFFFFF</color>
+    
+    <color name = "textEdit_normalTextColor"> #000000 </color>
+    
+</resources>

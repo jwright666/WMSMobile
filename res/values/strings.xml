@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GRNSampleActivity!</string>
+    <string name="app_name">WMSMobile</string>
+    <string name="tvwGRNTrx_No"> Trx No </string>
+    <string name="tvwWh_No"> WH No </string>
+    <string name="tvwRef_No"> Ref No </string>
+    <string name="tvwCustomerCode"> Cust Code </string>
+    <string name="tvwCustomerName"> Cust Name </string>
+    <string name="tvwGRNDate">GRN Date </string>
+    <string name="tvwGINDate">GIN Date </string>
+    <string name="lvhSeqNo">Seq No </string>
+    <string name="lvhLineNo">Line No </string>
+    <string name="lvhProductCode"> Prod Code </string>
+    <string name="lvhDescription"> Prod Desc </string>
+    <string name="lvhBatch"> Batch </string>
+    <string name="lvhLot"> Lot </string>
+    <string name="lvhActQuantity"> ActQty </string>    
+    <string name="lvhSrvQuantity"> SrvQty </string>
+    <string name="lvhBalQuantity"> AvlQty </string>
+    <string name="lvhUOM"> UOM </string>
+    <string name="lvhQuantity"> Quantity </string>
+    <string name="lvhEqualQty"> isEqual </string>
+    <string name="tvwPallet_Id"> Pallet Id </string>
+    <string name="tvwZone"> Zone </string>
+    <string name="tvwRow"> Row </string>
+    <string name="tvwColumn"> Col </string> <!-- 20140421 gerry changed value from column to col -->
+    <string name="tvwTier"> Tier </string>
+    <string name="tvwIsRack"> Is Zone Racked </string>  
+    <string name="tvwPuttingList"> Putting List </string>  
+    <string name="tvwUnbalanceDetailList"> Unabalance GrnDetail List </string>  
+    <string name="tvwUsername"> User Name : </string>  
+    <string name="tvwPassword"> Password : </string>  
+    <string name="tvwSerialNoList"> S/N List </string>  
+    <string name="tvwSerialNo"> Serial No </string> 
+    <string name="tvwSerialNos"> SerialNos </string> 
+    <string name="tvwDesc"> Description </string> 
+    <string name="tvwSerialCount">S/N Count </string> 
+    <string name="tvwNoOfScannedSerial"> Scanned S/N </string> 
+    <string name="tvwNoOfSerialNoTobeScan"> S/N to scan(ActQty) </string> 
+    <string name="tvwTotalNoOfScannedSerial"> S/N scanned  </string> 
+    <string name="tvwCrateItemQty"> Crate Item Qty  </string> 
+    <string name="tvwCrateNo"> Crate No  </string>     
+    <string name="tvwCrateMarking"> Crate Marking  </string>    
+    <string name="tvwCrateContents"> Crate Contents  </string>   
+    <string name="tvwUnAllocatedProd"> Unallocated Products  </string>   
+    <string name="tvwSelectedProduct">Selected Products  </string>   
+    <string name="tvwUnAllocatedQty">UnAllocated Qty  </string>   
+    <string name="tvwLocation">Location  </string>   
+    <string name="tvwLocSeparator">Location separator </string>   
+    
+    <string name="tvwUser"> USER :  </string>  
+    <string name="tvwCompany">Company : </string>  
+    <string name="tvwDatabase">Database : </string>  
+    <string name="tvwServerName">ServerName  </string>  
+    <string name="tvwAndroidID">Android ID :  </string>  
+    <string name="tvwWebserviceIP">Webservice IP :  </string>  
+    
+    
+    <string name="stringSpinCompany">Select Company</string>
+       
+    <string name="btnSave">Save </string>    
+    <string name="btnCancel">Cancel </string>    
+    <string name="btnViewGrnDetail">View Grn Details </string>
+    <string name="btnAdd">Add </string>       
+    <string name="btnDelete">Delete </string>    
+    <string name="btnEdit">Edit </string>    
+    <string name="btnScanSerialNo">Scan Serial No </string>
+    <string name="btnDownload">Download </string>    
+    <string name="btnPutting">Putting </string>
+    <string name="btnUpload">Upload </string>
+    <string name="btnNext">Next </string>
+    <string name="btnPrevious">Previous </string>
+    <string name="btnClose">Close </string>  
+    <string name="btnDeletePallet">Delete Whole Pallet </string>  
+    <string name="btnAddPallet">Add New Pallet </string>    
+    <string name="btnValidateGrn">Check Data </string>     
+    <string name="btnLogin">Login </string>         
+    <string name="btnLogOut">Logout </string>    
+    <string name="btnGRN">Good Received </string>   
+    <string name="btnGIN">Good Issue </string>   
+    <string name="btnCrating">Crating </string>   
+    <string name="btnStockCheck">Stock Check </string>   
+    <string name="btnPickNewLocation">Pick new location </string>  
+    <string name="btnAddNewCrate">Add New Crate </string>    
+    <string name="btnConfirmGin">Confirm GIN </string>   
+    <string name="btnUploadGINandCrateData">Upload GIN and Crate Data </string>  
+    
+    <string name="chkHasSerialNo">Has S/N </string>    
+    <string name="rbnNotRack"> Not Rack </string>    
+    <string name="rbnRack"> Rack </string>        
+        
+    <string name="tabDownLoadedGRN">Downloaded GRN </string>            
+    <string name="tabDownLoadedGIN">Downloaded GIN </string>            
+    <string name="tabGINCrate">GIN Crate </string>  
+    <string name="tabPutLocation">Location </string>    
+    <string name="tabPutQuantity">Put Quantity </string>     
+    <string name="tabPutSerialNo">Serial No </string>     
+    <string name="tabSearch">Search </string>     
+    <string name="tabCrateMain">Crate Main </string>     
+    <string name="tabCrateDetail">Crate Detail </string>      
+    <string name="tabCrateMaster">Crate Master </string>   
+    <string name="tabCrateProduct">Crate Product </string>  
+    
+    
+    <string name="diaPuttingEntry">Putting Entry </string>   
+    <string name="diaPickingEntry">Picking Entry </string>   
+    <string name="diaSerialNoEntry">Serial No Entry </string>   
+    <string name="diaLoginInfo">Login Information </string>  
+    
+     <string name="strMainDesc">WMS Main Screen</string>   
+    <string name="strZero">0</string>     
+    <string name="strCode">Code </string>    
+    <string name="strExpectedQty">Expected Qty </string>       
+    <string name="strItemActQty">Item ActQty </string>     
+    <string name="strPickingActQty">Picking ActQty </string>      
+    <string name="strPuttingActQty">Putting ActQty </string>    
+    <string name="strOptionForScanning">Scanning Options :  </string>     
+    <string name="strOptionCompletePickingBeforeSeriaNo">Complete all picking before serialNo </string>    
+    <string name="strOptionPickingWithSeriaNo">Each Picking with serialNo  </string>  
+    <string name="strOptionSortByLocation">Sort Picking by location </string>    
+    <string name="strOptionSortByLineNo">Sort Picking by Line items  </string>  
+    <string name="strAutoGeneratePalletID">Auto generate PalletID  </string>  
+    <string name="strScanPalletID">Manually scan PalletID  </string>  
+     
+      
+    <string name="msgAlert">Alert! </string>  
+    <string name="msgError">Error! </string>  
+    <string name="msgWarning">Warning! </string>  
+    <string name="msgBtnOK">OK </string>  
+    <string name="msgBtnYes">YES </string>  
+    <string name="msgBtnNo">NO </string>  
+    <string name="msgSavedSuccess">Saved successfully </string>  
+    <string name="msgSavedFailed">Failed saving! </string>     
+    <string name="msgDeleteSuccess">Deleted successfully </string>  
+    <string name="msgUploadSuccess">Uploaded successfully </string>    
+    <string name="msgUploadFailed">Upload failed! </string>   
+    <string name="msgLoginFailed">Login failed! </string>  
+    <string name="msgInProgress">In Progress..  </string>  
+    <string name="msgUploading">Uploading %s. Please wait. </string>
+    <string name="msgDownloading">Downloading %s. Please wait. </string>
+    <string name="msgCancelling">Cancelling %s. Please wait. </string>
+    <string name="msgValidatingUser">Validating User.. </string>
+    
+    
+    <string name="msgWarnUpload">Are you sure you want to upload this GRN?" </string> 
+	<string name="msgWarnUploadUnbal">Please press "NO" if you want to do checking. </string>    
+	<string name="msgWarnNotEqualQty">Server qty and actual qty are not equal. </string>   
+	<string name="msgWarnBalanceQty">Available balance qty is </string>  
+	<string name="msgWarnDeleteNotEmptyCrate">Tha crate has products. Deleting this means that all products in this crate has to be
+	    									 re-allocated to another crate, Do you wish to proceed? </string> 
+    
+	<string name="msgProductExistInPallet">Product already exist in putting list, Please update the exiting one instead of adding new. </string>
+	
+	
+	<string name="msgWarnNoPickingDownloaded">There are no picking locations in this GIN. Please check that “Generate Picking” button was pressed in the WMS for this GIN. If this was not done, cancel this GIN first, then press “Generate Picking” in WMS. However, please note that no picking locations are generated in WMS, if all the items are to be picked from the staging zone. </string> 
+    <string name="msgWarnConfirmGINSuccess">GIN confirmed successfully </string>  
+    <string name="msgWarnConfirmGIN">Are you sure you want to confirm this GIN?   </string>
+    <string name="msgWarnUploadGIN">Are you sure you want to upload this GIN?   </string>
+    <string name="msgAlreadyConfirmedGIN">Selected GIN was already confirmed.   </string>    
+    <string name="msgWarnCancelDownload">Cancelling this transaction means all the work done for this %s on this tablet will be deleted. Do you wish to proceed(Y/N)?   </string>
+    <string name="msgDownloadHasBeenCancelled">%s data has been cancelled.   </string>   
+    
+    <string name="msgConfirmUploadGINandCrating">Are you sure you want to upload GIN and Crating?   </string>
+    <string name="msgCantDoCratingForUnConfirmedGIN">Cannot do crating for unconfirmed GIN, Please confirm GIN first.   </string>
+	<string name="msgWarnNoSelectedPalletProd">Please select Pallet product first.   </string>
+    <string name="msgWarnConfirmRemovePallet">All product putting and serialNos in this pallet will be remove. Are you sure you want to delete this pallet? </string>
+	<string name="msgNoSerialNoNeededForCustomer">No serial numbers required at GRN - PDA Type 2 Customer.   </string>
+    <string name="msgConfirmLogout">Are you sure you want log out?  </string>
+   
+    <string name="msgLogoutCOnfirmation">Are you sure you want log out? </string> 
+    
+    
+    <string name="toastSaveInMemory">Pallet stored in the memory </string> 
+    <string name="toastNotSaveInMemory">Pallet not saved in the memory </string> 
+    <string name="toastPressPuttingButton">Please press the putting button to go to Putting menu </string> 
+    
+    <string name="msgConfirmDeleteProdFromPallet">Are you sure you want to delete this product from the pallet? </string> 
+    <string name="msgSerialNoWillBeDelete">Serial Nos for the selected item exists and it will be delete. </string> 
+    <string name="msgSerialNoNotNecessary">Serial No is not necessary for the selected item. </string> 
+    
+    <string name="errEmptyProductCode">Product code cannot be blank or empty.  </string>  
+    <string name="errEmptyPalletId">PALLET ID cannot be blank or empty. </string>  
+    <string name="errEmptyZone">ZONE cannot be blank or empty. </string>  
+    <string name="errEmptyRow">ROW cannot be blank or empty for racked zone. </string>  
+    <string name="errEmptyColumn">COLUMN cannot be blank or empty for racked zone. </string>  
+    <string name="errEmptyTier">TIER cannot be blank or empty for racked zone. </string>  
+    <string name="errInvalidQty">QUANTITY cannot be 0 or empty.  </string>  
+    <string name="errNoGrnFoundInCriteria">No GrnHeader founded. Please select another criteria. </string>  
+    <string name="errNoGinFoundInCriteria">No GinHeader founded. Please select another criteria. </string>  
+    <string name="errNoGrnToUpload">No GrnHeader to upload. Please download GRN first then do putting. </string> 
+    <string name="errUnbalanceprodQty">Product unbalanced qty. </string>  
+    <string name="errUnbalanceprodSerialNo">Product unbalanced serialNo. </string>  
+    <string name="errProductNotFound">Product not found. </string>  
+    <string name="errBatchNotFound">No BATCH NO found match for this product. </string>  
+    <string name="errLotNotFound">No LOT NO found match for this product. </string>  
+    <string name="errBatch_LotNotFound">No BATCH NO or LOT NO found match for the product. </string> 
+    <string name="errZoneNotFound">Please select another ZONE for this product. </string> 
+    <string name="errRowNotFound">Please select another ROW for this product. </string> 
+    <string name="errColumnNotFound">Please select another COLUMN for this product. </string> 
+    <string name="errTierNotFound">Please select another TIER for this product. </string> 
+    <string name="errPickNotFound">Please ZONE,ROW,COLUMN or TIER for this product. </string> 
+    <string name="errDuplicateSerialNo">Duplicate serial no for this product.  </string> 
+    <string name="errExceedSerialNo">Serial no. cannot exceed actual qty.  </string> 
+    <string name="errExceedActQty">Actual qty should not exceed server qty.  </string> 
+    <string name="errExceedQtyFromUnAllocated">Qty cannot exceed the unallocated qty for this product.  </string> 
+    <string name="errActAndSrvQtyNotEqual">Actual qty is not equal with server qty.  </string> 
+    <string name="errActAndSerialNosCountsNotEqual">Actual qty is not equal with the scanned serialNos.  </string> 
+    <string name="errCrateQtyAndPickingNotEqual">Crate qty are not equal to picking.  </string>
+    <string name="errBlankCrateNo">CrateNo cannot be blank.  </string>    
+    <string name="errBlankSerialNo">SerialNo cannot be blank.  </string>   
+    <string name="errCrateNoExist">CrateNo already exist.  </string>    
+    <string name="errZeroCrateProductQty">Product qty inside the crate cannot be zero.  </string>    
+    <string name="errCannotUploadWithoutPutting">Cannot upload GRN without any putting done. Please do atleast 1 putting or complete putting before uploading.   </string>
+    <string name="errCrateProdQtyExceedFromUnAllocatedQty">Qty cannot exceed to unallocated qty of the product.  </string>
+    <string name="errDuplicatePutting">Product already exist in putting list, Please update the exiting one instead of creating new.  </string>
+    <string name="errCannotConfirmGinWithOutPicking">Cannot confirm GIN without any picking done. Please do atleast 1 picking or complete all picking before confirming.   </string>
+    <string name="errCannotConfirmedGIN">Cannot modify confirmed GIN.   </string>  
+    <string name="errConfirmedGINBeforeUpload">Please confirmed GIN before uploading.   </string>
+    <string name="errEmptyUserName">Username cannot be blank.   </string>
+    <string name="errEmptyUserPassword">Password cannot be blank.   </string>
+    <string name="errInvalidPassword">Invalid password.   </string>
+    <string name="errNoSelectedPallet">Please select 1 pallet.   </string>
+    <string name="errNotSameZone">Zone value is not the same with in the composite field value.   </string>
+    <string name="errNotSameRow">Row value is not the same with in the composite field value.   </string>
+    <string name="errNotSameColumn">Column value is not the same with in the composite field value.   </string>
+    <string name="errNotSameTier">Tier value is not the same with in the composite field value.   </string>
+    
+    <string name="errDuplicatePalletID">PalletID already exist, please enter another palletID. </string>   
+    <string name="errLogoutHavePendingTransaction">You have pending %s.  </string>  
+    <string name="errDuplicatePickLocation">Pick location already exist, please enter another location. </string>  
+    
+    
+
+</resources>

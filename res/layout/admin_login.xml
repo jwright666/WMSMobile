@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvvAdmin_Username"
+        android:layout_width="@dimen/loginTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:text="@string/tvwUsername"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize_normal" />    
+    <EditText
+        android:id="@+id/etwAdmin_Username"
+        android:layout_width="@dimen/loginEvw_width"        
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvvAdmin_Username"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:maxLength="30"
+        android:background="@color/compulsoryTextedit_bgColor"
+        android:hint=""
+        android:textColor="@color/textEdit_normalTextColor"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal" /> 
+    <TextView
+        android:id="@+id/tvvAdmin_Password"
+        android:layout_width="@dimen/loginTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvAdmin_Username"
+        android:layout_alignLeft="@+id/tvvAdmin_Username"
+        android:gravity="right"
+        android:text="@string/tvwPassword"
+        android:textStyle="bold"
+        android:textSize="@dimen/textSize_normal" />	    
+    <EditText
+        android:id="@+id/etwAdmin_Password"
+        android:layout_width="@dimen/loginEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvAdmin_Password"
+       	android:layout_toRightOf="@+id/tvvAdmin_Password"
+       	android:layout_alignBaseline="@+id/tvvAdmin_Password"
+       	android:maxLength="50"
+        android:background="@color/compulsoryTextedit_bgColor"
+        android:hint=""
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal" />
+    <Button
+        android:id="@+id/btnAdmin_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvAdmin_Password"
+       	android:layout_alignRight="@+id/tvvAdmin_Password"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:text="@string/btnSave" />   
+    <Button
+        android:id="@+id/btnAdmin_CancelLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btnAdmin_login"
+        android:layout_alignBaseline="@+id/btnAdmin_login"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:text="@string/btnCancel" />  
+</RelativeLayout>

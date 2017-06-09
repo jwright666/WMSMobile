@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/btnEditPallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight ="@+id/tvvLoc_PalletId"
+        android:layout_marginTop="10dp"
+        android:text="@string/btnEdit" 
+        android:textSize="@dimen/textSize_normal"/>
+
+    <Button
+        android:id="@+id/btnDeletePallet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_alignTop="@+id/btnEditPallet"
+        android:layout_toRightOf="@+id/btnEditPallet"
+        android:text="@string/btnDeletePallet"
+        android:textSize="@dimen/textSize_normal" />
+    
+    
+    <TextView
+        android:id="@+id/tvvLoc_PalletId"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnEditPallet"
+        android:gravity="right"
+        android:text="@string/tvwPallet_Id"
+        android:textSize="@dimen/textSize_normal"/>
+    <EditText
+        android:id="@+id/etwLoc_PalletId"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/tvvLoc_PalletId"
+        android:layout_below="@+id/btnDeletePallet"
+        android:layout_alignBaseline="@+id/tvvLoc_PalletId"
+        android:background="@color/compulsoryTextedit_bgColor"
+        android:hint=""
+        android:paddingLeft="@dimen/layoutaddingLeft"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:textSize="@dimen/textSize_normal"/>
+
+   <TextView
+        android:id="@+id/tvvLoc_LocSeparator"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvLoc_PalletId"   
+        android:gravity="center"
+        android:text="@string/tvwLocSeparator"
+        android:textSize="@dimen/textSize_normal"/>       
+    
+    <TextView
+        android:id="@+id/tvvLoc_Location"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvLoc_LocSeparator"        
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="right"
+        android:text="@string/tvwLocation"
+        android:textSize="@dimen/textSize_normal" />
+    <EditText
+        android:id="@+id/etwLoc_Location"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:layout_below="@+id/tvvLoc_LocSeparator"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/tvvLoc_Zone"
+        android:layout_alignBaseline="@+id/tvvLoc_Location"
+        android:background="@color/OptionalTextedit_bgColor"
+        android:hint=""
+        android:paddingLeft="@dimen/layoutaddingLeft"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:textSize="@dimen/textSize_normal"/>     
+
+    <TextView
+        android:id="@+id/tvvLoc_Zone"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvLoc_Location"        
+        android:gravity="right"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:text="@string/tvwZone"
+        android:textSize="@dimen/textSize_normal"/>
+
+    <EditText
+        android:id="@+id/etwLoc_Zone"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:layout_below="@+id/etwLoc_Location"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/tvvLoc_Zone"
+        android:layout_alignBaseline="@+id/tvvLoc_Zone"
+        android:background="@color/compulsoryTextedit_bgColor"
+        android:hint=""
+        android:paddingLeft="@dimen/layoutaddingLeft"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:textSize="@dimen/textSize_normal"/>
+    <TextView
+        android:id="@+id/tvwLoc_IsRack"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvLoc_Zone"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="right"
+        android:text="@string/tvwIsRack"
+        android:textSize="@dimen/textSize_normal" />
+    <RadioGroup
+        android:id="@+id/rbgLoc_IsRack"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvwLoc_IsRack"
+        android:layout_toRightOf="@+id/tvwLoc_IsRack"
+        android:layout_below="@+id/etwLoc_Zone"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rbnLoc_Rack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbnRack" 
+         	android:textSize="@dimen/textSize_normal"/>
+        <RadioButton
+            android:id="@+id/rbnLoc_NotRack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rbnNotRack" 
+        	android:textSize="@dimen/textSize_normal"/>
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/tvvLoc_Row"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvwLoc_IsRack"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="right"
+        android:text="@string/tvwRow"
+        android:textSize="@dimen/textSize_normal"/>
+
+    <EditText
+        android:id="@+id/etwLoc_Row"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:maxLength="3"
+        android:selectAllOnFocus="true"
+        android:layout_below= "@+id/rbgLoc_IsRack"
+        android:layout_alignBaseline="@+id/tvvLoc_Row"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/tvvLoc_Row"
+        android:background="@color/OptionalTextedit_bgColor"
+        android:hint=""
+        android:paddingLeft="@dimen/layoutaddingLeft"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:textSize="@dimen/textSize_normal"/>
+    <TextView
+        android:id="@+id/tvvLoc_Column"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvLoc_Row"
+        android:gravity="right"
+        android:text="@string/tvwColumn"
+        android:textSize="@dimen/textSize_normal" />
+    <EditText
+        android:id="@+id/etwLoc_Column"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:maxLength="3"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"     
+        android:layout_below="@+id/etwLoc_Row"
+        android:layout_toRightOf="@+id/tvvLoc_Column"
+        android:layout_alignBaseline="@+id/tvvLoc_Column"
+        android:background="@color/OptionalTextedit_bgColor"
+        android:hint=""
+        android:paddingLeft="@dimen/layoutaddingLeft"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:textSize="@dimen/textSize_normal"/>
+    <TextView
+        android:id="@+id/tvvLoc_Tier"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvLoc_Column"
+        android:gravity="right"
+        android:text="@string/tvwTier"
+        android:textSize="@dimen/textSize_normal"/>
+    <EditText
+        android:id="@+id/etwLoc_Tier"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:maxLength="3"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"      
+        android:layout_below="@+id/etwLoc_Column"
+        android:layout_toRightOf="@+id/tvvLoc_Tier"
+        android:layout_alignBaseline="@+id/tvvLoc_Tier"
+        android:background="@color/OptionalTextedit_bgColor"
+        android:hint=""
+        android:paddingLeft="@dimen/layoutaddingLeft"
+        android:inputType="textCapCharacters"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:textSize="@dimen/textSize_normal" />
+
+    <Button
+        android:id="@+id/btnSaveLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etwLoc_Tier"
+        android:layout_below="@+id/etwLoc_Tier"
+        android:layout_marginTop="40dp"
+        android:text="@string/btnSave"
+        android:textSize="@dimen/textSize_normal" />
+
+    <Button
+        android:id="@+id/btnCancelLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSaveLocation"
+        android:layout_alignBottom="@+id/btnSaveLocation"
+        android:layout_alignRight="@+id/etwLoc_Tier"
+        android:layout_marginRight="35dp"
+        android:text="@string/btnCancel" 
+        android:textSize="@dimen/textSize_normal"/>
+
+    <Button
+        android:id="@+id/btnViewGrnDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnCancelLocation"
+        android:layout_marginLeft="71dp"
+        android:layout_toRightOf="@+id/btnCancelLocation"
+        android:text="@string/btnViewGrnDetail" 
+        android:textSize="@dimen/textSize_normal"/>
+
+</RelativeLayout>

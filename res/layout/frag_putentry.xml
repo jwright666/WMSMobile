@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/tvvPut_ProductCode"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:text="@string/lvhProductCode"
+        android:gravity="right"
+        android:textSize="@dimen/textSize_normal" />
+    <EditText
+        android:id="@+id/etwPut_ProductCode"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_toRightOf="@+id/tvvPut_ProductCode"
+        android:background="#87cefa"
+        android:hint=""
+        android:selectAllOnFocus="true"
+        android:inputType="textCapCharacters"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal" />
+
+    <TextView
+        android:id="@+id/tvvPut_Batch"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvPut_ProductCode"   
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:text="@string/lvhBatch"
+        android:gravity="right"
+        android:textSize="@dimen/textSize_normal" />
+
+    <EditText
+        android:id="@+id/etwPut_Batch"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etwPut_ProductCode"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_toRightOf="@+id/tvvPut_Batch"
+        android:background="#ffffff"
+        android:hint=""
+        android:selectAllOnFocus="true"
+        android:inputType="textCapCharacters"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/tvvPut_Lot"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvPut_Batch"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:text="@string/lvhLot"
+        android:gravity="right"
+        android:textSize="@dimen/textSize_normal" />
+
+    <EditText
+        android:id="@+id/etwPut_Lot"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etwPut_Batch"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_toRightOf="@+id/tvvPut_Lot"
+        android:background="#ffffff"
+        android:hint=""
+        android:selectAllOnFocus="true"
+        android:inputType="textCapCharacters"
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/tvvPut_Quantity"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvPut_Lot"
+        android:text="@string/lvhQuantity"
+        android:gravity="right"
+        android:textSize="@dimen/textSize_normal" />
+    <EditText
+        android:id="@+id/etwPut_Quantity"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/etwPut_Lot"
+        android:layout_toRightOf="@+id/tvvPut_Quantity"
+        android:background="#87cefa"
+        android:hint=""
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal" 
+        android:inputType="number"/>
+   
+
+    <Button
+        android:id="@+id/btnSavePutEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tvvPut_Quantity"
+        android:layout_below="@+id/tvvPut_Quantity"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:text="@string/btnSave" 
+        android:textSize="@dimen/textSize_normal" />
+
+    <Button
+        android:id="@+id/btnCancelPutEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSavePutEntry"
+        android:layout_toRightOf="@+id/btnSavePutEntry"
+        android:layout_alignBottom="@+id/btnSavePutEntry"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:text="@string/btnCancel" 
+        android:textSize="@dimen/textSize_normal" />
+
+    <Button
+        android:id="@+id/btnScanSerialNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnCancelPutEntry"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_toRightOf="@+id/btnCancelPutEntry"
+        android:text="@string/btnScanSerialNo"
+        android:textSize="@dimen/textSize_normal"  />
+
+</RelativeLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >  
+      <TextView
+        android:id="@+id/tvvDeviceID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tvwAndroidID"
+        android:textSize="@dimen/textSize_normal"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tvvlogin_Company"
+        android:layout_width="@dimen/loginTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/tvvDeviceID"
+        android:text="@string/tvwCompany"
+        android:gravity="center"
+        android:textSize="@dimen/textSize_normal"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spin_Company"
+        android:layout_width="@dimen/loginEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvvlogin_Company"
+        android:layout_toRightOf="@+id/tvvlogin_Company"
+        android:layout_alignBaseline="@+id/tvvlogin_Company"
+        android:textSize="@dimen/textSize_normal" 
+        android:drawSelectorOnTop = "true"/>
+    
+    <TextView
+        android:id="@+id/tvvlogin_Database"
+        android:layout_width="@dimen/loginTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvlogin_Company"
+        android:layout_alignRight="@+id/tvvlogin_Company"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="@string/tvwDatabase"
+        android:textSize="@dimen/textSize_normal"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etwlogin_Database"
+        android:layout_width="@dimen/loginEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvvlogin_Database"
+        android:layout_toRightOf="@+id/tvvlogin_Database"
+        android:background="#ffffff"
+        android:hint=""
+        android:textColor="#000000"
+        android:textSize="@dimen/headerTextSize_normal"/>
+    <TextView
+        android:id="@+id/tvvlogin_UserName"
+        android:layout_width="@dimen/loginTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvlogin_Database"
+        android:layout_alignRight="@+id/tvvlogin_Database"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tvwUsername"
+        android:textSize="@dimen/textSize_normal"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etwlogin_UserName"
+        android:layout_width="@dimen/loginEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvvlogin_UserName"
+        android:layout_toRightOf="@+id/tvvlogin_UserName"
+        android:background="#87cefa"
+        android:hint=""
+        android:singleLine="true"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize_normal"/>
+
+    <TextView
+        android:id="@+id/tvvlogin_UserPassword"
+        android:layout_width="@dimen/loginTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvlogin_UserName"
+        android:layout_alignRight="@+id/tvvlogin_UserName"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tvwPassword"
+        android:textSize="@dimen/textSize_normal"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etwlogin_UserPassword"
+        android:layout_width="@dimen/loginEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvvlogin_UserPassword"
+        android:layout_toRightOf="@+id/tvvlogin_UserPassword"
+        android:background="#87cefa"
+        android:hint=""
+        android:singleLine="true"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize_normal"/>  
+    
+
+    <TextView
+        android:id="@+id/tvvlogin_WebserviceIP"
+        android:layout_width="@dimen/loginTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvlogin_UserPassword"
+        android:layout_alignRight="@+id/tvvlogin_UserPassword"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/tvwWebserviceIP"
+        android:textSize="@dimen/textSize_normal"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etwlogin_WebserviceIP"
+        android:layout_width="@dimen/loginEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvvlogin_WebserviceIP"
+        android:layout_toRightOf="@+id/tvvlogin_WebserviceIP"
+        android:background="#87cefa"
+        android:singleLine="true"
+        android:cursorVisible="true"
+        android:textColor="#000000"
+        android:textSize="@dimen/textSize_normal"
+        style="@style/CodeFont"
+        android:textCursorDrawable="@null"/>       
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvlogin_WebserviceIP"
+        android:layout_alignRight="@+id/tvvlogin_WebserviceIP"
+        android:layout_marginTop="10dp"
+        android:text="@string/btnLogin" 
+        android:textSize="@dimen/textSize_normal"/>
+    <Button
+        android:id="@+id/btnlogin_Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLogin"
+        android:layout_toRightOf="@+id/btnLogin"
+        android:text="@string/btnCancel" 
+        android:textSize="@dimen/textSize_normal"/>
+    
+    <TextView
+        android:id="@+id/tvvProgressxxxxx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"	        
+        android:gravity="center_vertical|right"
+        android:visibility="gone"
+        android:layout_alignBaseline="@+id/btnLogin"
+        android:layout_toRightOf="@+id/btnlogin_Cancel"
+        android:text="@string/msgValidatingUser"/>  
+        
+    <ProgressBar android:id="@+id/progressValidation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"	     
+        android:layout_alignTop="@+id/btnLogin"
+        android:visibility="gone"
+        android:layout_toRightOf="@+id/tvvProgressxxxxx"
+        android:text="@string/msgValidatingUser"/>
+
+</RelativeLayout>

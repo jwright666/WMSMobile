@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <Button         
+        android:id="@+id/btnUnbalance_Putting"
+        android:text="@string/btnPutting"
+		android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/buttonTextSize_normal" />
+    <TextView
+        android:id="@+id/tvwUnbalnceDetailList"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/tvwUnbalanceDetailList"
+        android:textSize="@dimen/textSize_normal" 
+		android:textStyle="bold"
+		android:paddingRight="5dp"
+		android:textColor="#f5f5f5"
+		android:layout_below="@+id/btnUnbalance_Putting"/>
+    <fragment class = "sg.com.innosys.wms.UI.GRN.FragUnbalanceGrnDetail" 
+	    android:id="@+id/FragUnbalanceGrnDetail"
+	    android:layout_width="wrap_content"
+	    android:gravity="center_vertical|right"
+	    android:layout_height="220dp"  
+		android:layout_below="@+id/tvwUnbalnceDetailList"/>
+    
+    <TextView
+        android:id="@+id/tvwPuttingList"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/tvwPuttingList"
+        android:textSize="@dimen/textSize_normal" 
+		android:textStyle="bold"
+		android:paddingRight="5dp"
+		android:textColor="#f5f5f5"
+		android:layout_marginTop="5dp"
+		android:layout_below="@+id/FragUnbalanceGrnDetail"
+        />    
+    <TextView
+        android:id="@+id/tvw_SelectedUnbalanceProduct"
+     	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+        android:textSize="@dimen/logInfoTextSize_normal" 
+		android:layout_marginLeft="15dp"
+		android:paddingLeft="5dp"
+		android:textColor="#000000"
+		android:background="@color/readOnlyTextedit_bgColor"
+		android:layout_toRightOf="@+id/tvwPuttingList"
+		android:layout_alignTop="@+id/tvwPuttingList"
+        />
+    <fragment class = "sg.com.innosys.wms.UI.GRN.FragUnbalanceGrnPut" 
+        android:id="@+id/FragUnbalanceGrnPut"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_height="wrap_content"  
+		android:layout_below="@+id/tvwPuttingList"/>   
+</RelativeLayout>

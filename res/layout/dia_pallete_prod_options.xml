@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+     <TextView
+        android:id="@+id/tvvMsg"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical|right"
+        android:text="What to do?"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/btnSaveCrateProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/tvvMsg"
+        android:text="@string/btnSave" />
+
+    <Button
+        android:id="@+id/btnDeleteCrateProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@+id/btnSaveCrateProd"
+        android:layout_toRightOf="@+id/btnSaveCrateProd"
+        android:text="@string/btnDelete" />
+    <Button
+        android:id="@+id/btnCancelCrateProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBaseline="@+id/btnSaveCrateProd"
+        android:layout_toRightOf="@+id/btnDeleteCrateProd"
+        android:text="@string/btnCancel" />    
+    
+   
+</RelativeLayout>

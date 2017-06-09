@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    
+	android:background="@color/listView_rowBgColor" >  
+ 	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_dlTrxNo"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listTrxNo_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>
+	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_dlCustomerCode"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listCustCode_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>		
+	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_dlCustomerName"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listCustName_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>		
+	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_dlWhNo"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listWarehouseCode_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>		
+	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_dlGrnDate"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listDate_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>		
+</LinearLayout>

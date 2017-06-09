@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@color/form_bgColor">
+    <TextView
+        android:id="@+id/tvvGinHeader_TrxNo"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="right"
+        android:text="@string/tvwGRNTrx_No"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/etwGinHeader_TrxNo"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_toRightOf="@+id/tvvGinHeader_TrxNo"
+        android:layout_alignBaseline="@+id/tvvGinHeader_TrxNo" 
+        android:background="#66cdaa"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal" /> 	
+        
+    <TextView
+        android:id="@+id/tvvGinHeader_CustCode"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvGinHeader_TrxNo"      
+        android:gravity="center_vertical|right"
+        android:text="@string/tvwCustomerCode"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/etwGinHeader_CustCode"
+        android:layout_height="wrap_content"  
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_marginLeft="@dimen/layout_marginLeft"      
+        android:layout_toRightOf="@+id/tvvGinHeader_CustCode"
+        android:layout_alignBaseline="@+id/tvvGinHeader_CustCode" 
+        android:background="#66cdaa"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal"/>           
+        
+    <TextView
+        android:id="@+id/tvvGinHeader_CustName"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvGinHeader_CustCode"      
+        android:gravity="right"
+        android:text="@string/tvwCustomerName"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/etwGinHeader_CustName"
+        android:layout_height="wrap_content"  
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_marginLeft="@dimen/layout_marginLeft"      
+        android:layout_toRightOf="@+id/tvvGinHeader_CustName"
+        android:layout_alignBaseline="@+id/tvvGinHeader_CustName" 
+        android:background="#66cdaa"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal"/>             
+        
+    <TextView
+        android:id="@+id/tvvGinHeader_GinDate"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvGinHeader_CustName"      
+        android:gravity="center_vertical|right"
+        android:text="@string/tvwGINDate"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/etwGinHeader_GinDate"
+        android:layout_height="wrap_content"  
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_marginLeft="@dimen/layout_marginLeft"      
+        android:layout_toRightOf="@+id/tvvGinHeader_GinDate"
+        android:layout_alignBaseline="@+id/tvvGinHeader_GinDate" 
+        android:background="#66cdaa"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal"/>          
+   
+</RelativeLayout>

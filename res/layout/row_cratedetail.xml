@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/listView_rowBgColor" >
+    
+  	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_crateNo"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listCrateNo_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>
+	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_crateDesc"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listCrateDesc_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>		
+	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_crateMarking"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listCrateMarking_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>		    
+
+</LinearLayout>

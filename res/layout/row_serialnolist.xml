@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/listView_rowBgColor">    
+   	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_serialNo"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listSerialNo_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>			
+	<sg.com.innosys.wms.UI.Common.ListViewItems
+		android:id="@+id/row_serialNoDesc"
+		android:layout_height="wrap_content"
+		android:layout_width="@dimen/listSerialDesc_width"
+		android:paddingTop="@dimen/listViewRowpaddingTop"
+		android:paddingBottom="@dimen/listViewRowpaddingBottom"
+		android:textSize="@dimen/listViewRowTextSize_normal"
+		android:textColor="@color/listView_rowTextColor"/>		
+
+</LinearLayout>

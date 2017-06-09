@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="8dp">
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:paddingLeft="2dp">
+	    
+	 <LinearLayout     
+	     	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:background="@color/listView_headerBgColor"
+	        android:id="@+id/lilHeaderView">     
+	       <TextView
+	        android:id="@+id/tvwCrateNo"
+			android:text="@string/tvwCrateNo"
+			android:layout_height="@dimen/listViewHeader_height"
+			android:layout_width="@dimen/listCrateNo_width"
+			android:textStyle="bold"
+			android:textSize="@dimen/headerTextSize_normal"
+			android:textColor="@color/listView_headerTextColor"/>
+	       <TextView
+	        android:id="@+id/tvwDesc"
+			android:text="@string/tvwDesc"
+			android:layout_height="@dimen/listViewHeader_height"
+			android:layout_width="@dimen/listCrateDesc_width"
+			android:textStyle="bold"
+			android:textSize="@dimen/headerTextSize_normal"
+			android:textColor="@color/listView_headerTextColor"/>    
+	       <TextView
+	        android:id="@+id/tvwCrateMarking"
+			android:text="@string/tvwCrateMarking"
+			android:layout_height="@dimen/listViewHeader_height"
+			android:layout_width="@dimen/listCrateMarking_width"
+			android:textStyle="bold"
+			android:textSize="@dimen/headerTextSize_normal"
+			android:textColor="@color/listView_headerTextColor"/>  			
+	       
+	 </LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/lilHeaderView"   
+	    android:paddingLeft="2dp" 
+	    android:orientation="vertical">
+		    <ListView  
+		    android:id="@+id/lvvCrateDetailList"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:divider="#ffffff" 
+		    />
+	</LinearLayout>
+	</RelativeLayout>
+</HorizontalScrollView>

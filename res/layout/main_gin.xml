@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <fragment class = "sg.com.innosys.wms.UI.GIN.FragGinHeader" 
+        android:id="@+id/FragGinHeader"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical|right"
+        android:layout_height="wrap_content"  />
+
+     <RadioGroup
+        android:id="@+id/rbgScan_Option"
+        android:layout_marginLeft="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/FragGinHeader" 
+        android:layout_alignBottom="@+id/FragGinHeader"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbnOpt_CompleteScanBeforeSerialNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/strOptionCompletePickingBeforeSeriaNo" 
+            android:textSize="@dimen/textSize_normal"/>
+        <RadioButton
+            android:id="@+id/rbnOpt_ScanWithSerialNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strOptionPickingWithSeriaNo" 
+            android:textSize="@dimen/textSize_normal"
+            />
+    </RadioGroup>
+        <TextView
+	        android:id="@+id/ScanningOption"
+			android:text="@string/strOptionForScanning"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textSize="@dimen/textSize_normal"
+			android:textStyle="bold"
+			android:drawableRight="@android:color/black"
+			android:layout_above="@+id/rbgScan_Option"
+       		android:layout_toRightOf="@+id/FragGinHeader" 
+       		android:layout_alignLeft="@+id/rbgScan_Option"
+			android:paddingRight="5dp"/>
+    
+    <fragment class = "sg.com.innosys.wms.UI.GIN.FragGinDetail"
+        android:id="@+id/FragGinDetail"
+        android:layout_below="@+id/FragGinHeader"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+  <fragment class = "sg.com.innosys.wms.UI.GIN.FragGinPicksByLocation"
+        android:id="@+id/FragGinPicksByLocation"
+        android:layout_below="@+id/FragGinHeader"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+   
+    
+
+</RelativeLayout>

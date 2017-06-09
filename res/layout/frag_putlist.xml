@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="match_parent"
+	    android:paddingLeft="10dp">  
+	     <LinearLayout
+	         android:id="@+id/lilBtnAdd"
+	         android:layout_width="match_parent"
+	         android:layout_height="wrap_content"
+	         android:layout_alignLeft="@+id/lilHeaderView">
+	  
+			<Button
+		        android:id="@+id/btnAddPutList"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="10dp"
+		        android:text="@string/btnAdd" 
+        		android:textSize="@dimen/textSize_normal" />
+			<TextView
+		        android:id="@+id/tvvSelectProduct"	        
+				android:text="@string/lvhBatch"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:layout_marginLeft="3dp"
+        		android:textSize="@dimen/textSize_normal" 
+				android:paddingRight="1dp"
+				android:textColor="#ffffff"/> 
+		</LinearLayout>		   
+	    <TextView
+	        android:id="@+id/etwGrnHeader_ConfirmType"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	    	android:layout_below="@+id/lilBtnAdd"  
+	        android:hint=""
+        	android:textSize="@dimen/textSize_normal"  /> 
+	    <LinearLayout     
+	     	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_below="@+id/etwGrnHeader_ConfirmType"  
+		    android:layout_marginTop="3dp" 
+	    	android:background="@color/listView_headerBgColor"
+	        android:id="@+id/lilHeaderView">  
+	       <TextView
+			android:layout_height="@dimen/listViewHeader_height"
+			android:layout_width="@dimen/listProdCode_width"
+			android:text="@string/lvhProductCode"
+			android:textStyle="bold"
+			android:textSize="@dimen/headerTextSize_normal"
+			android:textColor="@color/listView_headerTextColor"/> 
+	       <TextView
+			android:layout_height="@dimen/listViewHeader_height"
+			android:layout_width="@dimen/listBatchNo_width"
+			android:text="@string/lvhBatch"
+			android:textStyle="bold"
+			android:textSize="@dimen/headerTextSize_normal"
+			android:textColor="@color/listView_headerTextColor"/>    
+	       <TextView
+			android:layout_height="@dimen/listViewHeader_height"
+			android:layout_width="@dimen/listLotNo_width"
+			android:text="@string/lvhLot"
+			android:textStyle="bold"
+			android:textSize="@dimen/headerTextSize_normal"
+			android:textColor="@color/listView_headerTextColor"/>
+	       <TextView
+			android:layout_height="@dimen/listViewHeader_height"
+			android:layout_width="@dimen/listQty_width"
+			android:text="@string/lvhActQuantity"
+			android:textStyle="bold"
+			android:textSize="@dimen/headerTextSize_normal"
+			android:textColor="@color/listView_headerTextColor"/> 
+	       <TextView
+			android:layout_height="@dimen/listViewHeader_height"
+			android:layout_width="@dimen/listHasSerialNo_width"
+			android:text="@string/chkHasSerialNo"
+			android:textStyle="bold"
+			android:textSize="@dimen/headerTextSize_normal"
+			android:textColor="@color/listView_headerTextColor"/> 	       
+		</LinearLayout>
+		<LinearLayout 
+			android:id="@+id/lilGrnPutList"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_below="@+id/lilHeaderView" >	
+			    <ListView  
+			    android:id="@+id/lvvGrnPutList"
+			    android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content"
+			    android:divider="#ffffff" />    
+		</LinearLayout>	
+	</RelativeLayout>
+</HorizontalScrollView>

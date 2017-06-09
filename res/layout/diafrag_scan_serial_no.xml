@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvvScan_serialNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/tvwSerialNo"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        android:textStyle="bold"
+        android:textSize="30sp" />    
+    <EditText
+        android:id="@+id/etwScan_serialNo"
+        android:layout_width="@dimen/etwScanSerialNo_width"        
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvScan_serialNo"
+        android:layout_alignLeft="@+id/tvvScan_serialNo"
+        android:maxLength="30"
+        android:background="#ffffff"
+        android:hint=""
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:selectAllOnFocus="true"
+        android:inputType="textCapCharacters"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnScan_closeSerialNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/etwScan_serialNo"
+        android:layout_alignBaseline="@+id/etwScan_serialNo"
+	    android:text="@string/btnClose" />      
+    <EditText
+        android:id="@+id/etwScan_SerialNoHiddenField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etwScan_serialNo"
+        android:hint=""
+        android:singleLine="true"
+        android:focusable="true"
+        android:textSize="2sp" />
+    <RelativeLayout         
+        android:id="@+id/rlScan_serialDesc"
+        android:layout_below="@+id/etwScan_serialNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <TextView
+	        android:id="@+id/tvvScan_serialDesc"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/tvwDesc"
+	        android:textStyle="bold"
+	        android:textSize="30sp" />	    
+	    <EditText
+	        android:id="@+id/etwScan_serialDesc"
+	        android:layout_width="@dimen/etwScanSerialNo_width"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/tvvScan_serialDesc"
+        	android:layout_alignLeft="@+id/tvvScan_serialDesc"
+        	android:maxLength="50"
+	        android:background="#ffffff"
+	        android:hint=""
+	        android:selectAllOnFocus="true"
+	        android:inputType="textCapCharacters"
+	        android:textColor="#000000"
+	        android:singleLine="true"
+	        android:textSize="20sp" />
+	    <Button
+	        android:id="@+id/btnScan_saveSerialNo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/etwScan_serialDesc"
+        	android:layout_alignLeft="@+id/tvvScan_serialDesc"
+	        android:layout_marginTop="20dp"
+	        android:text="@string/btnSave" />   
+	    <Button
+	        android:id="@+id/btnScan_closeSerialNo1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/btnScan_saveSerialNo"
+	        android:layout_alignBaseline="@+id/btnScan_saveSerialNo"
+	        android:layout_marginLeft="15dp"
+	        android:text="@string/btnClose" />      
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#000000">
+    <TextView
+        android:id="@+id/tvvGrnHeader_TrxNo"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:gravity="right"
+        android:text="@string/tvwGRNTrx_No"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/etwGrnHeader_TrxNo"
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvvGrnHeader_TrxNo"
+        android:layout_alignBaseline="@+id/tvvGrnHeader_TrxNo" 
+        android:background="@color/readOnlyTextedit_bgColor"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:textSize="@dimen/textSize_normal" /> 	      
+ 	<TextView
+     	android:id="@+id/tvvGrnHeader_WhNo"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvGrnHeader_TrxNo" 
+        android:layout_alignLeft="@+id/tvvGrnHeader_TrxNo"
+        android:gravity="right"
+        android:text="@string/tvwWh_No"
+        android:textSize="@dimen/textSize_normal" />	 
+ 	<TextView 
+     	android:id="@+id/etwGrnHeader_WhNo"
+        android:layout_height="wrap_content"  
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_toRightOf="@+id/tvvGrnHeader_WhNo"
+        android:layout_alignBaseline="@+id/tvvGrnHeader_WhNo" 
+        android:background="@color/readOnlyTextedit_bgColor"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal"/>	    
+        
+    <TextView
+        android:id="@+id/tvvGrnHeader_CustCode"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvGrnHeader_WhNo"  
+        android:layout_alignLeft="@+id/tvvGrnHeader_TrxNo"
+        android:gravity="right"
+        android:text="@string/tvwCustomerCode"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/etwGrnHeader_CustCode"
+        android:layout_height="wrap_content"  
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_toRightOf="@+id/tvvGrnHeader_CustCode"
+        android:layout_alignBaseline="@+id/tvvGrnHeader_CustCode" 
+        android:background="@color/readOnlyTextedit_bgColor"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal"/>           
+        
+    <TextView
+        android:id="@+id/tvvGrnHeader_CustName"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvGrnHeader_CustCode" 
+        android:gravity="right"     
+        android:text="@string/tvwCustomerName"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/etwGrnHeader_CustName"
+        android:layout_height="wrap_content"  
+        android:layout_width="@dimen/downloadEvw_width"
+        android:layout_toRightOf="@+id/tvvGrnHeader_CustName"
+        android:layout_alignBaseline="@+id/tvvGrnHeader_CustName" 
+        android:background="@color/readOnlyTextedit_bgColor"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal"/>             
+        
+    <TextView
+        android:id="@+id/tvvGrnHeader_GrnDate"
+        android:layout_width="@dimen/downloadTvw_width"
+        android:layout_height="wrap_content"  
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_below="@+id/tvvGrnHeader_CustName"  
+        android:gravity="right"
+        android:text="@string/tvwGRNDate"
+        android:textSize="@dimen/textSize_normal" />
+    <TextView
+        android:id="@+id/etwGrnHeader_GrnDate"
+        android:layout_height="wrap_content"  
+        android:layout_width= "@dimen/downloadEvw_width"
+        android:layout_toRightOf="@+id/tvvGrnHeader_GrnDate"
+        android:layout_alignBaseline="@+id/tvvGrnHeader_GrnDate" 
+        android:background="@color/readOnlyTextedit_bgColor"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:hint=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textColor="@color/textEdit_normalTextColor"
+        android:singleLine="true"
+        android:textSize="@dimen/textSize_normal"/>     
+        
+    <TextView
+        android:id="@+id/etwGrnHeader_ConfirmType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvvGrnHeader_GrnDate"
+        android:hint=""
+        android:visibility="gone"
+        android:textSize="@dimen/textSize_normal" /> 	    
+    <Button         
+        android:id="@+id/m_btnPutting"
+        android:text="@string/btnPutting"
+        android:layout_below="@+id/etwGrnHeader_ConfirmType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize_normal"/>
+    <RadioGroup
+        android:id="@+id/rbgLoc_IsRack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/m_btnPutting"
+        android:layout_alignTop="@+id/m_btnPutting"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbnPut_GeneratePalletID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAutoGeneratePalletID" 
+         	android:textSize="@dimen/textSize_normal"/>
+        <RadioButton
+            android:id="@+id/rbnPut_ScanPalletID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strScanPalletID" 
+            android:textSize="@dimen/textSize_normal"/>
+    </RadioGroup>
+   
+</RelativeLayout>
+
+
